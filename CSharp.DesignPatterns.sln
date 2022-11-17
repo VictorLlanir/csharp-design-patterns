@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FA0449E-0877-4D61-A70C-D8C5BAEC864E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.DesignPatterns.Behavioral", "src\CSharp.DesignPatterns.Behavioral\CSharp.DesignPatterns.Behavioral.csproj", "{82D66F04-BA56-484F-9511-8BC5A7DE6BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.DesignPatterns.Creational", "src\CSharp.DesignPatterns.Creational\CSharp.DesignPatterns.Creational.csproj", "{DA275E4D-A3BB-4D63-95F4-54072DB0DF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.DesignPatterns.Structural", "src\CSharp.DesignPatterns.Structural\CSharp.DesignPatterns.Structural.csproj", "{81EBE3C8-5AA4-4AA4-8964-3EC00BF42ACB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8FFA8A4A-087B-44BA-B367-1EFF335E41BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.DesignPatterns.Behavioral.Tests", "tests\CSharp.DesignPatterns.Behavioral.Tests\CSharp.DesignPatterns.Behavioral.Tests.csproj", "{396C7CA0-4B2E-4081-8F72-04AEA4F21303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.DesignPatterns.Creational.Tests", "tests\CSharp.DesignPatterns.Creational.Tests\CSharp.DesignPatterns.Creational.Tests.csproj", "{0F02020D-41D2-4202-8ED3-633434CE6DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.DesignPatterns.Structural.Tests", "tests\CSharp.DesignPatterns.Structural.Tests\CSharp.DesignPatterns.Structural.Tests.csproj", "{33373FF4-2C36-4D90-8E31-0FAB01B77EE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82D66F04-BA56-484F-9511-8BC5A7DE6BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D66F04-BA56-484F-9511-8BC5A7DE6BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D66F04-BA56-484F-9511-8BC5A7DE6BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D66F04-BA56-484F-9511-8BC5A7DE6BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA275E4D-A3BB-4D63-95F4-54072DB0DF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA275E4D-A3BB-4D63-95F4-54072DB0DF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA275E4D-A3BB-4D63-95F4-54072DB0DF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA275E4D-A3BB-4D63-95F4-54072DB0DF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EBE3C8-5AA4-4AA4-8964-3EC00BF42ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EBE3C8-5AA4-4AA4-8964-3EC00BF42ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EBE3C8-5AA4-4AA4-8964-3EC00BF42ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EBE3C8-5AA4-4AA4-8964-3EC00BF42ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396C7CA0-4B2E-4081-8F72-04AEA4F21303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C7CA0-4B2E-4081-8F72-04AEA4F21303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C7CA0-4B2E-4081-8F72-04AEA4F21303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C7CA0-4B2E-4081-8F72-04AEA4F21303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F02020D-41D2-4202-8ED3-633434CE6DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F02020D-41D2-4202-8ED3-633434CE6DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F02020D-41D2-4202-8ED3-633434CE6DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F02020D-41D2-4202-8ED3-633434CE6DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33373FF4-2C36-4D90-8E31-0FAB01B77EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33373FF4-2C36-4D90-8E31-0FAB01B77EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33373FF4-2C36-4D90-8E31-0FAB01B77EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33373FF4-2C36-4D90-8E31-0FAB01B77EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82D66F04-BA56-484F-9511-8BC5A7DE6BF2} = {5FA0449E-0877-4D61-A70C-D8C5BAEC864E}
+		{DA275E4D-A3BB-4D63-95F4-54072DB0DF3E} = {5FA0449E-0877-4D61-A70C-D8C5BAEC864E}
+		{81EBE3C8-5AA4-4AA4-8964-3EC00BF42ACB} = {5FA0449E-0877-4D61-A70C-D8C5BAEC864E}
+		{396C7CA0-4B2E-4081-8F72-04AEA4F21303} = {8FFA8A4A-087B-44BA-B367-1EFF335E41BF}
+		{0F02020D-41D2-4202-8ED3-633434CE6DD0} = {8FFA8A4A-087B-44BA-B367-1EFF335E41BF}
+		{33373FF4-2C36-4D90-8E31-0FAB01B77EE5} = {8FFA8A4A-087B-44BA-B367-1EFF335E41BF}
+	EndGlobalSection
+EndGlobal
